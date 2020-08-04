@@ -33,7 +33,7 @@ public class StringFunctions extends AppCompatActivity {
         byte smallIntValue=25; //-128 .... +127
         int intValue= smallIntValue;
         float floatValue=7.8f;
-        int mynumber=(int)floatValue;
+        int mynumber = (int) floatValue;
 
         txt1.setText(floatValue+"");//7.8
         txt2.setText(mynumber+"");//7
