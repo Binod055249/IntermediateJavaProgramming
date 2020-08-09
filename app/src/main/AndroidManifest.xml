@@ -9,16 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LogicalOperators">
+        <activity android:name=".DecisionMakingStatements">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ForSwitchWhile">
+        <activity android:name=".LogicalOperators">
         </activity>
-        <activity android:name=".IfStatements"></activity>
+        <activity android:name=".ForSwitchWhile"></activity>
+        <activity android:name=".IfStatements" />
         <activity android:name=".Inheritance2" />
         <activity android:name=".Inheritance" />
         <activity android:name=".StringFunctions" />
